@@ -1,4 +1,4 @@
-/* Base styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,9 +18,8 @@
     min-height: 100vh;
   }
   
-  /* Header */
   .app-header {
-    background-color: #ff5350;
+    background-color: #e8fa4b;
     color: white;
     padding: 1rem;
     display: flex;
@@ -45,7 +44,6 @@
     border: none;
   }
   
-  /* Main content */
   .main-content {
     flex: 1;
     padding: 1rem;
@@ -54,7 +52,6 @@
     width: 100%;
   }
   
-  /* Pokemon List */
   .pokemon-list-container {
     display: flex;
     flex-direction: column;
@@ -106,4 +103,26 @@
   
   .sort-direction-btn {
     padding: 0.5rem;
+  }
+
+  .search-button {
+    padding: 10px 20px;
+    background-color: #e2ef50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .reset-button {
+    padding: 10px 20px;
+    background-color: #e2ef50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
   }
